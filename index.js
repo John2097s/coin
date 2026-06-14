@@ -1,3 +1,4 @@
+console.log('Bot startet...');
 const mineflayer = require('mineflayer');
 const { initializeApp, cert } = require('firebase-admin/app');
 const { getFirestore, FieldValue } = require('firebase-admin/firestore');
