@@ -13,9 +13,8 @@ const SECRET     = '[COIN:a9f3]';
 // ============================================================
 
 // Firebase Admin initialisieren
-const serviceAccount = require('./serviceAccount.json');
+const serviceAccount = JSON.parse(process.env.GOOGLE_APPLICATION_CREDENTIALS_JSON);
 initializeApp({ credential: cert(serviceAccount) });
-const db = getFirestore();
 
 let bot;
 
