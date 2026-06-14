@@ -1,7 +1,11 @@
 console.log('Bot startet...');
-console.log('Firebase wird initialisiert...');
+console.log('Node version:', process.version);
+
 const mineflayer = require('mineflayer');
+console.log('mineflayer OK');
+
 const { initializeApp, cert } = require('firebase-admin/app');
+console.log('firebase-admin OK');
 const { getFirestore, FieldValue } = require('firebase-admin/firestore');
 
 // ============================================================
