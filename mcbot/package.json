@@ -1,0 +1,13 @@
+{
+  "name": "mcbot",
+  "version": "1.0.0",
+  "description": "Minecraft CoinBot für MapShop",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "mineflayer": "^4.23.0",
+    "firebase-admin": "^12.0.0"
+  }
+}
