@@ -1,4 +1,5 @@
 console.log('Bot startet...');
+console.log('Firebase wird initialisiert...');
 const mineflayer = require('mineflayer');
 const { initializeApp, cert } = require('firebase-admin/app');
 const { getFirestore, FieldValue } = require('firebase-admin/firestore');
@@ -16,6 +17,7 @@ const SECRET     = '[COIN:a9f3]';
 // Firebase Admin initialisieren
 const serviceAccount = JSON.parse(process.env.GOOGLE_APPLICATION_CREDENTIALS_JSON);
 initializeApp({ credential: cert(serviceAccount) });
+console.log('Firebase OK!');
 
 let bot;
 
