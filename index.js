@@ -5,10 +5,10 @@ const { getFirestore, FieldValue } = require('firebase-admin/firestore');
 // ============================================================
 // KONFIGURATION
 // ============================================================
-const MC_HOST    = 'DEIN-ATERNOS-SERVER.aternos.me';
-const MC_PORT    = 25565;
+const MC_HOST = 'coins.enderman.cloud';
+const MC_PORT = 25565;
 const BOT_EMAIL  = 'dein-bot-account@gmail.com'; // Offline-Mode: beliebiger Name
-const BOT_NAME   = 'CoinBot';
+const BOT_NAME = 'CoinBot';
 const SECRET     = '[COIN:a9f3]';
 // ============================================================
 
